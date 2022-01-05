@@ -27,8 +27,8 @@ footer {
   vertical-align: bottom;
   margin-top: 40px;
   text-align: center;
-  /* width: 100%; */
-  /* height: 2.5rem;   */
+  /* width: 100%;
+  height: 2.5rem;   */
 }
 
 .banner {
@@ -40,8 +40,8 @@ footer {
 
 .content {
   padding: 20px 0px;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* ================================== */
@@ -77,12 +77,20 @@ footer {
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
+  height: 50vh;
   /* 2. Position and center the image to scale nicely on all screens. */
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-subheading {
   font-size: 24px;
   font-weight: 100;
+  color: white;
+  top: 50%;
+  left: 50%;
 }
 .hero-input {
   width: 80%;
@@ -90,10 +98,17 @@ footer {
   padding: 16px;
   border-radius: 8px;
   border: none;
+  margin-left: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .nav-link {
   margin-right: 36px;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 /* ================================== */
